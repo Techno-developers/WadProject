@@ -12,18 +12,20 @@
 </div>
 
  <form method="post" action="register.php">
+
  	 <?php include('errors.php');?>
     <div class="input-group">
     	<label>Usename</label>
-    	<input type="text" name="username" value="<?php echo $username;  ?>">
+    	<input type="text" name="username" value="<?php echo $username;  ?>" placeholder="aamish">
     </div>
     <div class="input-group">
     	<label>Email</label>
-    	<input type="text" name="email" value="<?php echo $email?>">
+    	<input type="text" name="email" value="<?php echo $email?>" placeholder="aamish@example.com">
     </div>
     <div class="input-group">
     	<label>Password</label>
     	<input type="password" name="password_1">
+    	
     </div>
     <div class="input-group">
     	<label>Confirm Password</label>
